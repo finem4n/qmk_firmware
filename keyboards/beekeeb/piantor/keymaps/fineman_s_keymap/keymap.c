@@ -22,7 +22,7 @@ enum layer {
     _VIS_NUM,
     _MEDIA,
     _GAME,
-    _FG
+    _FG,
 },
 
 // See:
@@ -32,7 +32,7 @@ enum custom_keycodes {
     COPY = SAFE_RANGE,
     UNDO,
     PASTE,
-    MOVE
+    MOVE,
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {

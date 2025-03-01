@@ -23,7 +23,7 @@ enum layer {
     _MEDIA,
     _GAME,
     _FG,
-},
+};
 
 // See:
 // https://docs.qmk.fm/feature_macros

@@ -9,19 +9,19 @@
 #include QMK_KEYBOARD_H
 
 enum layer {
-    _BASE
-    _NUM
-    _VIM
-    _VIM_SFT
-    _VIM_CTL
-    _VIM_NUM
-    _DEL
-    _DEL_CTL
-    _VIS
-    _VIS_CTL
-    _VIS_NUM
-    _MEDIA
-    _GAME
+    _BASE,
+    _NUM,
+    _VIM,
+    _VIM_SFT,
+    _VIM_CTL,
+    _VIM_NUM,
+    _DEL,
+    _DEL_CTL,
+    _VIS,
+    _VIS_CTL,
+    _VIS_NUM,
+    _MEDIA,
+    _GAME,
     _FG
 },
 
@@ -29,7 +29,10 @@ enum layer {
 // https://docs.qmk.fm/feature_macros
 
 enum custom_keycodes {
-     COPY = SAFE_RANGE,
+    COPY = SAFE_RANGE,
+    UNDO,
+    PASTE,
+    MOVE
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {

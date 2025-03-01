@@ -106,7 +106,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_VIM] = LAYOUT_split_3x6_3(
-    KC_NO, KC_NO, C(KC_RGHT),KC_NO, KC_NO, KC_NO,                      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
+    KC_NO, KC_NO, C(KC_RGHT),KC_NO, KC_NO, KC_NO,                      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
     /*KC_NO, KC_NO, OSL(_DEL), KC_NO, KC_NO,                      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,*/
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,             KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,             KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,

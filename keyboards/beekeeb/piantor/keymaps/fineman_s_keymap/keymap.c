@@ -7,7 +7,6 @@
 // The modifiers (mod) argument to the MT() macro are prefixed with MOD_, not KC_
 
 #include QMK_KEYBOARD_H
-#define TAPPING_TOGGLE 2
 
 enum layer {
     _BASE,
@@ -53,28 +52,28 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         } else {
         }
         break;
-    }
+
     case VIS_WORD_FORW:
         if (record->event.pressed) {
             SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_RGHT)SS_UP(X_LSFT)SS_UP(X_LCTL));
         } else {
         }
         break;
-    }
+
     case VIS_WORD_BACK:
         if (record->event.pressed) {
             SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_LEFT)SS_UP(X_LSFT)SS_UP(X_LCTL));
         } else {
         }
         break;
-    }
+
     case VIS_END:
         if (record->event.pressed) {
             SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_END)SS_UP(X_LSFT)SS_UP(X_LCTL));
         } else {
         }
         break;
-    }
+
     case VIS_HOME:
         if (record->event.pressed) {
             SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_HOME)SS_UP(X_LSFT)SS_UP(X_LCTL));

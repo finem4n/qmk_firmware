@@ -1,5 +1,5 @@
 # Whitelist my piantor images
-!/images
+!./images
 
 # Junk files
 *.bak

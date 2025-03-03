@@ -1,3 +1,21 @@
+# My attempt to make a perfect [piantor](https://github.com/beekeeb/piantor) keymap
+Keymap's location:  
+[./keyboards/beekeeb/piantor/keymaps/fineman_s_keymap/keymap.c](keyboards/beekeeb/piantor/keymaps/fineman_s_keymap/keymap.c)
+## Layout photos
+[Logseq whiteboard](logseq.edn) I've used to visualise layouts
+### Base Layout
+![2025-03-03-05-07-47](images/img_clip/2025-03-03-05-07-47.png)
+### Numbers Layout
+![2025-03-03-05-08-30](images/img_clip/2025-03-03-05-08-30.png)
+### Vim Layout
+![vim](images/img_clip/vim.png)
+### Media Layout
+![media](images/img_clip/media.png)
+### Gaming Layouts
+![game1](images/img_clip/game1.png)
+![game2](images/img_clip/game2.png)
+![fg](images/img_clip/fg.png)
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

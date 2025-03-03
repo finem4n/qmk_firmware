@@ -122,4 +122,4 @@ via*.json
 /keyboards/**/keymaps/vial/*
 
 # Whitelist my piantor images
-!./images/img_clip/*
+!/images/img_clip/*.png

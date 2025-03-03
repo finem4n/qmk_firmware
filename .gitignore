@@ -1,3 +1,6 @@
+# Whitelist my piantor images
+!/images
+
 # Junk files
 *.bak
 *.swp
